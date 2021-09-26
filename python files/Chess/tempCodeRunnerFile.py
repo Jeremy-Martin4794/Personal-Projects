@@ -1,0 +1,2 @@
+
+        images[piece] = p

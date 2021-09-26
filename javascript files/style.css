@@ -1,0 +1,25 @@
+body {
+    background-image: url(NatureWallpaper.jpg);
+    background-size: cover;
+}
+
+.pageLinks {
+    background: rgb(255, 255, 255, .7);
+    padding: 1px;
+    width: 6%;
+    font-family: 'Times New Roman'; 
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.description {
+    background: rgb(255, 255, 255, .7);
+    padding: 40px;
+    margin: auto;
+    width: 60%;
+    font-family: 'Times New Roman'; 
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+

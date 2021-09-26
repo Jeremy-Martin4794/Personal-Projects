@@ -1,0 +1,93 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <div class="pageLinks">
+        <A href="home.html">back</A>
+        <br>
+        <A href="JavaScript.html">javascript</A>
+        <br>
+        <A href="css.html">css</A>
+    </div>
+    <title>document</title>
+</head>
+
+<body>
+    <div class="description">
+        <h1>Some basic Html syntax</h1>
+        <dl>
+            <dt>&ltA href="something.html"&gt</dt>
+                <dd>-creates a link to another file (EX: html, javascript, css)</dd>
+                <dd>-make sure file is in same directory or include file path</dd>
+            <br>
+            <dt>&ltlink rel="stylesheet" href="something.css"&gt</dt>
+                <dd>link to an external style sheet</dd>
+                <dd>-"rel" is relation between tag and href</dd>
+                <dd>-"href" (hypertext reference) is source file</dd>
+            <br>
+            <dt>&lthead&gt</dt>
+                <dd>the head is where metadata is stored (metadata is not displayed)</dd>
+                <dd>can use &lttitle&gt, &ltmeta&gt, &ltstyle&gt, and &ltlink&gt tags in the head</dd>
+            <br>
+            <dt>&ltbody&gt</dt>
+                <dd>the body contains paragraphs, headings, hyperlinks, images, etc.</dd>
+                <dd>can only be one body in an html doc</dd>
+            <br>
+            <dt>&ltscript&gt</dt>
+                <dd>used to define a JavaScript script</dd>
+                <dd>can point to external script file with &ltscript src="something.js"&gt</dd>
+            <br>
+            <dt>&ltimg src="url" align="left"&gt</dt>
+                <dd>add an image somewhere on your website</dd>
+                <dd>can use different parameters such as: width="", height="", border=""</dd>
+            <br>
+            <dt>&lth1&gt</dt>
+                <dd>heading one</dd>
+                <dd>this heading is most important (also has the biggest font)</dd>
+            <br>
+            <dt>&lth2&gt</dt>
+                <dd>a heading with slightly smaller font (sub heading)</dd>
+                <dd>6 different types of headings (1 is largest, 6 is smallest)</dd>
+            <br>
+            <dt>&ltp&gt</dt>
+                <dd>tag for a paragraph</dd>
+                <dd>a paragraph always starts on a new line</dd>
+                <dd>can have &ltp1&gt&lt/p1&gt, &ltp2&gt&lt/p2&gt, &ltp3&gt&lt/p3&gt, etc.</dd>
+            <br>
+            <dt>&ltbr&gt</dt>
+                <dd>tag for a line break</dd>
+            <br>
+            <dt>&ltdiv&gt</dt>
+                <dd>defines a division in html file</dd>
+                <dd>&ltdiv class="something"&gt (defines a class that can group data together to be styled in css or manipulated in JS)</dd>
+            <br>
+            <dt>&ltb&gt, &ltu&gt, &lti&gt</dt>
+                <dd>tags indicate bolded, underlined, and italicised text respectively</dd>
+            <br>
+            <dt>&ltul&gt</dt>
+                <dd>unordered list</dd>
+                <dd>use &ltli&gt for each list item</dd>
+            <br>
+            <dt>&ltol&gt</dt>
+                <dd>ordered list</dd>
+                <dd>is numbered</dd>
+                <dd>use &ltli&gt for each list item</dd>
+            <br>
+            <dt>&ltdl&gt</dt>
+                <dd>description list</dd>
+                <dd>list an item with &ltdt&gt and descriptions underneath with &ltdd&gt</dd>
+            <br>
+            <dt>&lttable&gt</dt>
+                <dd>defines a table</dd>
+                <dd>use &lttr&gt to define a table row</dd>
+                <dd>use &ltth&gt to define a table header</dd>
+                <dd>use &lttd&gt to define table data/cell</dd>
+                <dd>can use &ltth colspan="2"&gt for header to span 2 columns</dd>
+                <dd>can use &ltth rowspan="2"&gt for header to span 2 rows</dd>
+                <dd>add a caption to your table with &ltcaption&gt</dd>
+
+        </dl>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
